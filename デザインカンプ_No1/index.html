@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+    <div class="body">
+        <header>
+            <div class="header">
+                <div class="web_flex">
+                    <div class="boder">
+                        <div class="sm_flex">
+                            <h1>クリ★スタ</h1>
+                            <span class="nav_toggle">
+                                <i></i>
+                                <i></i>
+                                <i></i>
+                            </span>
+                        </div>
+                    </div>
+                        <nav class="nav">
+                            <ul class="nav_menu_ul">
+                                <li class="nav_menu_li"><a href="#">About   </a></li>
+                                <li class="nav_menu_li"><a href="#">Service </a></li>
+                                <li class="nav_menu_li"><a href="#">News    </a></li>
+                                <li class="nav_menu_li"><a href="#">Contact </a></li>
+                            </ul>
+                        </nav>
+                </div>
+            </div>
+        </header>
+
+        <div class="main">
+            <h1>Cresta Design.</h1>
+        </div>
+
+        <section class="about_service_news">
+            <div class="about">
+                <h2>About</h2>
+                <h3>ミニマルで<br>洗練されたデザインを。</h3>
+                <p>近年、ミニマルなデザインが流行しています。そこで弊社では、クライアント企業様新規サービス等の課題に対してミニマルで洗練されたデザインを実現させることで解決のサポートを致します。もちろん全てのサービスにおいてミニマルなデザインが課題解決になるわけではないので、課題や今後のサービスの展開等しっかりとヒアリングを行なった上でご提案させて頂きます。</p>
+            </div>
+
+            <div class="service">
+                <h2>service</h2>
+                <div class="sevice_flex1">
+                    <div class="sevice_talk1">
+                        <h3>リリース時のサポートで<br>サービスのブランディングを</h3>
+                        <p>弊社では、リリース時もサポートさせて頂きます。プレスリリース用のサイトや動画制作を通して、サービスのブランディングを行わせて頂きます。</p>
+                    </div>
+                    <img src="img/service-image@2x.jpg" alt="黒色のカメラ">
+                </div>
+                <div class="sevice_flex2">
+                    <div class="sevice_talk2">
+                        <h3>リリース後のサポートで<br>効果を最大化させる</h3>
+                        <p>弊社では、リリース後もサポートさせて頂きます。サービスはリリース後に様々な課題にぶつかります。そこでクライアント様と一緒に改善を行うことで、デザインの効果を最大化させます。</p>
+                    </div>
+                    <img src="img/service-image02@2x.jpg" alt="新品のスマートフォンの写真">
+                </div>  
+            </div>
+
+            <div class="news">
+                <h1>News</h1>
+                <div class="news_flex">
+                    <div class="news1">
+                        <img src="img/card-image1@2x.jpg" alt="">
+                        <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+                    </div>
+                    <div class="news2">
+                        <img src="img/card-image2@2x.jpg" alt="">
+                        <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+                    </div>
+                    <div class="news3">
+                        <img src="img/card-image3@2x.jpg" alt="">
+                        <p>新規サイトを公開しました。今回のサイトは白と黒を基調にしたミニマルなデザインになっています。</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section>
+            <div class="contact">
+                <h1>お問い合わせ</h1>
+
+                <form action="confirmation.php" method="post" name="myform">
+                    <table width="100%">
+                    <tbody>
+                    <tr>
+                        <td>担当者名<br>
+                        <input type="text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>電話番号<br>
+                        <input type="text" name="tel"></td>
+                    </tr>
+                    <tr>
+                        <td>メールアドレス<br>
+                        <input type="text" name="address"></td>
+                    </tr>
+                    <tr>
+                        <td>お問い合わせ内容<br>
+                        <textarea name="otoiawase"></textarea></td>
+                    </tr>
+                    </tbody></table>
+                    <input class="button" type="button" value="確認画面へ" onclick="check_contactform()">
+                    </form>
+            </div>
+        </section>
+
+        <footer>
+            <p>©︎crest.design all rights reserved</p>
+        </footer>
+    </div>   
+</body>
+</html>
